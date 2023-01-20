@@ -27,7 +27,7 @@ with open('budget_data.csv','newfile') as csvfile:
 increase = max(change_inprofit)
 decrease = min(change_inprofit)
 
-#Using the index, 
+#Using the index, month_increase and month_decrease
 month_increase = change_inprofit.index(max(change_inprofit))+1
 month_decrease = change_inprofit.index(min(change_inprofit))+1
 
